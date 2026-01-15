@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Vantage Point hero art">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f16"/>
+      <stop offset="1" stop-color="#141c2a"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4655"/>
+      <stop offset="1" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#4cc9f0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#4cc9f0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="900" fill="url(#glow)"/>
+  <g opacity="0.8">
+    <path d="M0 680 L420 380 L720 520 L1100 260 L1400 420 L1400 900 L0 900 Z" fill="url(#core)"/>
+  </g>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1.5" fill="none">
+    <circle cx="180" cy="180" r="120"/>
+    <circle cx="1220" cy="240" r="160"/>
+    <circle cx="980" cy="720" r="220"/>
+    <path d="M80 340 L420 140 L620 260 L920 120 L1260 260"/>
+  </g>
+  <g>
+    <rect x="70" y="90" width="520" height="120" rx="18" fill="#0f1623" stroke="#1f2a3a"/>
+    <text x="100" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#e6edf3" letter-spacing="6">VANTAGE POINT</text>
+    <text x="100" y="190" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#9fb0c5" letter-spacing="4">VALORANT ESPORTS</text>
+  </g>
+</svg>
