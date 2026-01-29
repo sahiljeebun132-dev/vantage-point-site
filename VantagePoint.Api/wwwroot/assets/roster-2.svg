@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Player portrait">
+  <defs>
+    <linearGradient id="p2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="p2a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p2)"/>
+  <rect x="30" y="30" width="740" height="540" rx="24" fill="#0f172a" stroke="#1f2a3a"/>
+  <g opacity="0.8">
+    <rect x="90" y="120" width="620" height="320" rx="20" fill="url(#p2a)"/>
+  </g>
+  <circle cx="560" cy="230" r="70" fill="#0b1220" stroke="#e6edf3" stroke-opacity="0.35"/>
+  <circle cx="560" cy="230" r="45" fill="#4cc9f0"/>
+  <rect x="420" y="330" width="240" height="18" rx="9" fill="#ff4655"/>
+  <rect x="420" y="360" width="200" height="14" rx="7" fill="#9fb0c5"/>
+  <text x="260" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#e6edf3" text-anchor="middle">FLARE</text>
+  <text x="260" y="505" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9fb0c5" text-anchor="middle" letter-spacing="3">DUELIST</text>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/vercel/assets/$1" },
+    { "src": "/(.*)", "dest": "/vercel/$1" }
+  ]
+}

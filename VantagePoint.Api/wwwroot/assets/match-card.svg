@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Match card">
+  <defs>
+    <linearGradient id="m1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff4655"/>
+      <stop offset="1" stop-color="#4cc9f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#m1)"/>
+  <rect x="40" y="40" width="1120" height="520" rx="28" fill="#0b1220" stroke="#1f2a3a"/>
+  <rect x="80" y="120" width="1040" height="360" rx="22" fill="url(#m2)" opacity="0.25"/>
+  <circle cx="360" cy="300" r="120" fill="#ff4655"/>
+  <circle cx="840" cy="300" r="120" fill="#4cc9f0"/>
+  <text x="360" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#0b1220" text-anchor="middle">VP</text>
+  <text x="840" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#0b1220" text-anchor="middle">RIV</text>
+  <text x="600" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#9fb0c5" text-anchor="middle" letter-spacing="3">UPCOMING MATCH</text>
+  <text x="600" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="40" fill="#e6edf3" text-anchor="middle">JAN 22 • 6:00 PM</text>
+  <text x="600" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#9fb0c5" text-anchor="middle">Split • Stage 1</text>
+</svg>

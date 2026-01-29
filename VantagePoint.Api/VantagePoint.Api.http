@@ -1,0 +1,6 @@
+@VantagePoint.Api_HostAddress = http://localhost:5192
+
+GET {{VantagePoint.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
